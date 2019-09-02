@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html><!DOCTYPE html>
+<html>
+<head>
+	<title>Rate My Site</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1>Homepage</h1>
+		<div class="nav-bar">
+			<nav>
+				<header>Rate Campgrounds</header>
+				<ul class="nav-items">
+
+					<li><a>Add Campsite</a></li>
+					<li><a>Login</a></li>
+					<li><a>Sign Up</a></li>
+				</ul>
+
+			</nav>
+		</div>
+	<section id="homepage">
+		<!-- featured -->
+		<div class="featured-shell">
+			<!-- contains all info -->
+			<div class="featured-container">
+				<h2>Featured Campsite</h2>
+				<!-- contains photo -->
+				<div class="featured-pic">
+					<img src="https://i.imgur.com/hrTJ5ke.jpg" alt="some picture">
+				</div>
+				<!-- info -->
+				<div>
+					<p>Washington</p>
+					<p>4.5 tents/25 reviews</p>
+				</div>
+			</div>
+		</div>
+		<!-- post page -->
+		<div class="all-posts">
+		<!-- post -->
+			<div class="post">
+				<div ><img class="img-post" src="https://i.imgur.com/2NF3pvW.jpg" alt="some picture"></div>
+				<p>3.0 tents/ 10 reviews</p>
+			</div>
+		<!-- post -->
+			<div class="post">
+				<div ><img class="img-post" src="https://i.imgur.com/2NF3pvW.jpg" alt="some picture"></div>
+				<p>3.0 tents/ 10 reviews</p>
+			</div>
+			<!-- post -->
+			<div class="post">
+				<div ><img class="img-post" src="https://i.imgur.com/2NF3pvW.jpg" alt="some picture"></div>
+				<p>3.0 tents/ 10 reviews</p>
+			</div>
+			<!-- post -->
+			<div class="post">
+				<div ><img class="img-post" src="https://i.imgur.com/2NF3pvW.jpg" alt="some picture"></div>
+				<p>3.0 tents/ 10 reviews</p>
+			</div>
+		</div>
+	</section>
+	<hr/>
+	<header>Login</header>
+	<section class="login-page">
+		
+		<form class="login-form gen-form">
+			
+			<label for="username">Username:</label>
+			<input id="username" type="text" name="username">
+			
+			<label for="password">Password</label>
+			<input id="password" type="password" name="password">
+
+			<button type="submit">Login</button>
+		</form>
+	</section>
+	<hr/>
+	<section class="create-account">
+		<header>Create Account</header>
+		<form class="account-form gen-form">
+			
+			<label for="username">Username</label>
+			<input id="username" type="text" name="username" required="">
+
+			<label for="profile-pic">Profile picture</label>
+			<input type="file" name="profile-pic">
+
+			<label for="password">Password</label>
+			<input id="password" type="password" name="password" required="">
+
+			<label for="repeat-password">Repeat password</label>
+			<input id="repeat-password" type="password" name="repeat-password" required="">
+
+			<button type="submit">Create Account</button>
+
+		</form>
+	</section>
+	<hr/>
+	<section class="new-post">
+		<header>Post Campground</header>
+			<div>chosen pic goes here</div>
+		<form class="new-site gen-form">
+			
+			<label for="campground-pic">Campsite picture</label>
+			<input type="file" name="campground-pic">
+
+			<label for="name">Campsite name</label>
+			<input type="text" name="name">
+
+			<label for="description">Description</label>
+			<input type="text" name="description">
+
+			<label for="park-name">Park name</label>
+			<input type="text" name="park-name">
+
+			<label for="city">City</label>
+			<input type="text" name="city">
+
+			<label for="state">State</label>
+			<input type="text" name="state">
+
+			<button type="submit">Submit</button>
+
+		</form>
+	</section>
+	<hr/>
+	<!-- info page -->
+	<section class="info">
+		<header>Info</header>
+		<div class="full-view">
+			<img src="https://i.imgur.com/2NF3pvW.jpg" alt="img of some site">
+			<p>Tent Rating</p>
+			<p>3.8/10 Reviews</p>
+			<p>
+				This campsite provides an excelent view
+				of the pacific ocean. Located on the shores of
+				Olympic National Park it provides an exelent place to
+				camp for anyone willing to make the 2 mile trek to the 
+				site.
+			</p>
+		</div>
+		<!-- reviews -->
+		<h3>Reviews</h3>
+		<div>
+			Great
+		</div>
+		<h3>Write a review</h3>
+		<form class="gen-form ">
+			<textarea></textarea>
+			<label>Tents</label>
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<button type="submit">Submit Review</button>
+		</form>
+	</section>
+
+</body>
+</html>

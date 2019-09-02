@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+
+/*nav bar*/
+nav{
+	background: rgb(0, 0, 0, 0.2);
+
+	/*position*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+ul{
+	margin-top: 0;
+	list-style: none;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*home page*/
+
+/*featured*/
+.featured-shell{
+	text-align: center;
+	margin-top: 1%;
+	border: 1px solid black;
+	width: 90%;
+	height: 35vh;
+}
+
+.featured-container{
+	text-align: center;
+	width: 50%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.featured-pic img{
+	width: 70%;
+}
+/*all posts*/
+.all-posts{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.post{
+	border: 1px solid black;
+	margin: 1%;
+	text-align: center;
+}
+
+.img-post{
+	width: 50%;
+}
+
+/*
+	LOGIN PAGE
+
+*/
+.gen-form{
+	text-align: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+}
+
+
+
+.login-form button{
+	width: 15%;
+	margin-top: 2%;
+}
+
+/*
+
+.account-form
+
+*/
+
+
+.account-form button{
+	width: 25%;
+	margin-top: 2%;
+}
+
+.new-site button{
+	width: 25%;
+	margin-top: 2%;
+}
+
+/*
+
+FULL VIEW
+
+*/
+
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.full-view{
+	width: 70%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+.full-view img{
+	margin-top: 1%;
+	width: 70%;
+}
